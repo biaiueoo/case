@@ -44,6 +44,8 @@ class ProductsModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
+
+    // soal no 4
     public function getProductsByCategory($categoryId = null)
     {
         if ($categoryId) {

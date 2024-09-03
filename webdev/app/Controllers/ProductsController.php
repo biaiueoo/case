@@ -15,6 +15,7 @@ class ProductsController extends BaseController
         $model = new ProductsModel();
         $data = $model->getProductsByCategory($categoryId);
 
+        // soal no 4
         return $this->response->setJSON($data);
     }
 }

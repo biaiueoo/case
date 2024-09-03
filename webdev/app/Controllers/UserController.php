@@ -24,7 +24,7 @@ class UserController extends BaseController
     {
         $model = new UserModel();
 
-        // Validation rules
+        // Validation rules soal 5
         $rules = [
             'username'        => 'required|min_length[8]|max_length[100]',
             'email'           => 'required|valid_email',

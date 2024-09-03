@@ -43,6 +43,8 @@ class UserModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
+    
+    //soal no 2
     public function getActiveUsers()
     {
         return $this->where('status', 'active')
